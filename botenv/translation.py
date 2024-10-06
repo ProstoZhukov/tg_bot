@@ -1,7 +1,7 @@
 import openai
 import textwrap
 
-openai.api_key = ''
+
 
 # Максимум токенов, которые мы можем отправить за один запрос
 MAX_TOKENS = 1500  # Учтем запас на модельные токены

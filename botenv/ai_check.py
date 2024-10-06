@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ''
+
 
 async def check_translation_with_ai(original_text, translated_text):
     prompt = f"Исходный текст: {original_text}\nПеревод: {translated_text}\nОцените точность перевода. Правильно ли это переведено?"
