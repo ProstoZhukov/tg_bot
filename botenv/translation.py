@@ -1,7 +1,7 @@
 import openai
 import textwrap
 
-
+openai.api_key = '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'
 
 # Максимум токенов, которые мы можем отправить за один запрос
 MAX_TOKENS = 1500  # Учтем запас на модельные токены
